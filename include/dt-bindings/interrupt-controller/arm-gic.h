@@ -5,7 +5,7 @@
 #ifndef _DT_BINDINGS_INTERRUPT_CONTROLLER_ARM_GIC_H
 #define _DT_BINDINGS_INTERRUPT_CONTROLLER_ARM_GIC_H
 
-#include <dt-bindings/interrupt-controller/irq.h>
+#include <../../../../../include/dt-bindings/interrupt-controller/irq.h>
 
 /* interrupt specific cell 0 */
 
