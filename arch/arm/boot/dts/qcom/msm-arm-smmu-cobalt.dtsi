@@ -10,8 +10,8 @@
  * GNU General Public License for more details.
  */
 
-#include <dt-bindings/clock/msm-clocks-cobalt.h>
-#include <dt-bindings/interrupt-controller/arm-gic.h>
+#include <../../../../../include/dt-bindings/clock/msm-clocks-cobalt.h>
+#include <../../../../../include/dt-bindings/interrupt-controller/arm-gic.h>
 
 &soc {
 	anoc1_smmu: arm,smmu-anoc1@1680000 {
