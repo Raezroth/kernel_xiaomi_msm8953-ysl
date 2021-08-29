@@ -11,9 +11,9 @@
  */
 
 #include "skeleton64.dtsi"
-#include <dt-bindings/clock/msm-clocks-cobalt.h>
-#include <dt-bindings/regulator/qcom,rpm-smd-regulator.h>
-#include <dt-bindings/interrupt-controller/arm-gic.h>
+#include <../../../../../include/dt-bindings/clock/msm-clocks-cobalt.h>
+#include <../../../../../include/dt-bindings/regulator/qcom,rpm-smd-regulator.h>
+#include <../../../../../include/dt-bindings/interrupt-controller/arm-gic.h>
 
 / {
 	model = "Qualcomm Technologies, Inc. MSM COBALT";
