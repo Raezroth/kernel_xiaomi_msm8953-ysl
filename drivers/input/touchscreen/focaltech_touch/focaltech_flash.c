@@ -48,20 +48,20 @@ struct ft_chip_t chip_types;
 /* Upgrade FW/PRAMBOOT/LCD CFG */
 u8 CTPM_FW[] =
 {
-#include FTS_UPGRADE_FW_APP
+/*#include FTS_UPGRADE_FW_APP*/
 };
 
 #if (FTS_GET_VENDOR_ID_NUM >= 2)
 u8 CTPM_FW2[] =
 {
-#include FTS_UPGRADE_FW2_APP
+/*#include FTS_UPGRADE_FW2_APP*/
 };
 #endif
 
 #if (FTS_GET_VENDOR_ID_NUM >= 3)
 u8 CTPM_FW3[] =
 {
-#include FTS_UPGRADE_FW3_APP
+/*#include FTS_UPGRADE_FW3_APP*/
 };
 #endif
 
